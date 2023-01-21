@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Topsis",
+    name="Topsis_102003592",
     version="1.0.4",
     author="Bhavna Goyal",
     author_email="bgoyal_be20@thapar.edu",
@@ -18,12 +18,12 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    packages=["102003592_topsis"],
+    packages=["Topsis_102003592"],
     include_package_data=True,
     install_requires='pandas',
     entry_points={
         "console_scripts": [
-            "topsis=102003592_topsis.topsis:main",
+            "topsis=Topsis_102003592.topsis:main",
         ]
     },
 )
